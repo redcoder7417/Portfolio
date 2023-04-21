@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    background-size: auto;
+    padding: 0;
+}
+
+.bigimg img {
+    width: 100%;
+    height: fit-content;
+    filter: blur(3px);
+}
+
+.info {
+    position: absolute;
+    top: 6%;
+    left: 30%;
+    font-size: 3vw;
+}
+
+.name {
+    position: relative;
+    top: 38%;
+    left: 39%;
+    font-size: 3vw;
+    color: azure;
+}
+
+.profile_picture {
+    position: relative;
+    top: 0;
+    left: 56%;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+
+}
+
+.contact {
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    border: 0.2vw;
+    width: 33vw;
+    height: 10vh;
+
+    align-items: center;
+    justify-content: space-around;
+
+    border-image: linear-gradient(9deg, rgb(176, 176, 192), #ff000000) 1;
+
+    border-style: solid;
+
+    text-align: center;
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+    border: 0.2vw solid aliceblue;
+    border-radius: 50%;
+    width: 4vw;
+    height: 7vh;
+    background-color: transparent;
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    border: 0.2vw solid aliceblue;
+    border-radius: 50%;
+    width: 4vw;
+    height: 7vh;
+    background-color: transparent;
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+    border: 0.2vw solid aliceblue;
+    border-radius: 50%;
+    width: 4vw;
+    height: 7vh;
+    background-color: transparent;
+}
+
+.git {
+    display: flex;
+    align-items: center;
+    border: 0.2vw solid aliceblue;
+    border-radius: 50%;
+    width: 4vw;
+    height: 7vh;
+    background-color: transparent;
+}
+
+.ull {
+    display: contents;
+    align-items: baseline;
+    list-style: none;
+
+}
+
+.ull img {
+    width: 2.5vw;
+    border-radius: 33%;
+    position: relative;
+    left: 19%;
+    background-color: transparent;
+}
+
+.ull a {
+    width: 2.5vw;
+    border-radius: 50%;
+    position: relative;
+    left: 8%;
+    background-color: transparent;
+    top: 5%;
+}
+
+.phara {
+    position: absolute;
+    top: 60%;
+    left: 33%;
+
+}
+
+.phara h1 {
+    font-family: cursive;
+    font-size: 6vh;
+    color: aliceblue;
+}
+
+.phara p {
+    font-size: 3.5vh;
+    width: 31vw;
+    font-family: system-ui;
+    color: #a1b2c1;
+
+}
+
+#more {
+    display: none;
+}
+
+.show {
+    position: static;
+
+    border: none;
+    background-color: transparent;
+    padding: 14px 28px;
+    font-size: 2vh;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui;
+    color: #badbf7a6;
+}
+
+.show:hover {
+    background: transparent;
+    color: #c7d1da;
+}
+
+
+.insta:hover {
+    opacity: 1;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    transition: .2s ease;
+    transition-delay: 22s;
+
+}
+
+.linkedin:hover {
+    background: #0072b1;
+    opacity: 1;
+    transition: .53s ease;
+    transition-delay: 0 s;
+}
+
+.whatsapp:hover {
+    background-color: #075E54;
+    opacity: 1;
+    transition: .53s ease;
+    transition-delay: 0s;
+}
+
+.git:hover {
+    background-color: #54048a;
+    transition: .53s ease;
+    transition-delay: 0s;
+    opacity: 1;
+}
